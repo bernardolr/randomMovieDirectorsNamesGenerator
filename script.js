@@ -1,4 +1,7 @@
+// CodeCademy exercise
 // Random Movie generator
+// By: Bernardo Lopez Rosso 
+// Date: April 11 2024
 
 const directors = [
     "Christopher Nolan",
@@ -43,24 +46,7 @@ function randomMovie(directors,movies,years) {
 
 
     return randomDirector + " " + randomMovie + " " + randomYear;
-    //console.log(randomSelection);
 
 }
 
-//const randomSelection = randomMovie(directors);
-
-
 console.log(randomMovie(directors,movies,years));
-
-
-
-
-// const arr = [0,1,2,3,4];
-
-// function logNumber(number){
-//     console.log(number);
-// }
-
-// arr.forEach(logNumber);
-
-
